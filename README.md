@@ -52,19 +52,14 @@ df.isnull().sum(axis=1)
 ```
 ![image](https://github.com/laakshit-D/exno1/assets/119559976/04ba9496-d19f-437f-a73e-be600337cd3b)
 
-#### 5) FILL NULL VALUES WITH CONSTANT VALUE "O"
+#### 5) Drop the null values
 ```
-df_filled_constant = df.fillna(0)
-df_filled_constant
+df.dropna(inplace=True)
+df
 ```
-<img height=50% width=50% src="https://github.com/laakshit-D/exno1/assets/119559976/dbf4d008-3989-4db7-909f-029f2ba236a0">
+<img height=50% width=50% src="https://github.com/laakshit-D/exno1/assets/119559976/cca1df8d-5392-45c0-8589-9b3136fcf6fd">
+>
 
-#### 6) FILL NULL VALUES WITH ffill or bfill METHOD
-```
-df_bfill = df.fillna(method='bfill')
-df_bfill
-```
-<img height=50% width=50% src="https://github.com/laakshit-D/exno1/assets/119559976/d1565829-e652-4b39-8404-51b652fcd546">
 
 # Result
           <<include your Result here>>
