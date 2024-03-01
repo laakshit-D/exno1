@@ -57,7 +57,7 @@ df.isnull().sum(axis=1)
 df.dropna(inplace=True)
 df
 ```
-<img height=50% width=50% src="https://github.com/laakshit-D/exno1/assets/119559976/cca1df8d-5392-45c0-8589-9b3136fcf6fd">
+<img height=70% width=70% src="https://github.com/laakshit-D/exno1/assets/119559976/cca1df8d-5392-45c0-8589-9b3136fcf6fd">
 >
 
 
