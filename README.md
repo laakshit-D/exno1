@@ -41,7 +41,7 @@ df.describe()
 
 ![image](https://github.com/laakshit-D/exno1/assets/119559976/eb36dbf7-bf22-4b71-be77-91cbd617bd7e) 
 
-<img height=70% width=50% src="https://github.com/laakshit-D/exno1/assets/119559976/b5a9a89e-823b-4f14-9787-b0bfef4291f6">
+![image](https://github.com/laakshit-D/exno1/assets/119559976/b5a9a89e-823b-4f14-9787-b0bfef4291f6")
 
 ```
 df.isnull().sum()
@@ -67,16 +67,17 @@ df
 ```py
 import pandas as pd
 ```
-
 ```py
 ir=pd.read_csv('iris.csv')
 ir
 ```
+
 ![image](https://github.com/PSriVarshan/exno1/assets/114944059/32840cf3-736d-4c4b-bc8e-2d55ee7e1417)
 
 ```py
 ir.describe()
 ```
+
 ![image](https://github.com/PSriVarshan/exno1/assets/114944059/e0ce99a8-f7b9-4ccd-9ac8-df82b53f4bc6)
 
 ```py
@@ -88,9 +89,7 @@ import seaborn as sns
 sns.boxplot(x='sepal_width',data=ir)
 ```
 
-
 ![image](https://github.com/PSriVarshan/exno1/assets/114944059/1c9bfcae-a2b3-4573-b204-c2590c8bc9a6)
-
 
 ```py
 c1=ir.sepal_width.quantile(0.25)
@@ -102,7 +101,6 @@ print(c3)
 ![image](https://github.com/PSriVarshan/exno1/assets/114944059/05ef4457-91f5-4a19-b413-1d4eea93b0a7)
 
 ```py
-
 rid=ir[((ir.sepal_width<(c1-1.5*iq))|(ir.sepal_width>(c3+1.5*iq)))]
 rid['sepal_width']
 ```
