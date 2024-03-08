@@ -39,7 +39,9 @@ df.info()
 df.describe()
 ```
 
-![image](https://github.com/laakshit-D/exno1/assets/119559976/eb36dbf7-bf22-4b71-be77-91cbd617bd7e) <img height=70% width=50% src="https://github.com/laakshit-D/exno1/assets/119559976/b5a9a89e-823b-4f14-9787-b0bfef4291f6">
+![image](https://github.com/laakshit-D/exno1/assets/119559976/eb36dbf7-bf22-4b71-be77-91cbd617bd7e) 
+
+<img height=70% width=50% src="https://github.com/laakshit-D/exno1/assets/119559976/b5a9a89e-823b-4f14-9787-b0bfef4291f6">
 
 ```
 df.isnull().sum()
