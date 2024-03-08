@@ -189,5 +189,5 @@ df1
 <hr>
 
 
-# Result
-          <<include your Result here>>
+# Result:
+Hence the data was cleaned , outliers were detected and removed.
