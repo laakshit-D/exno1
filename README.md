@@ -32,7 +32,7 @@ df=pd.read_csv('/content/SAMPLEIDS.csv')
 df
 ```
 
-<img height=50% width=50% src="https://github.com/laakshit-D/exno1/assets/119559976/a210fb07-bd74-49a3-ae3a-32ef13bf8eb7">
+![image](https://github.com/laakshit-D/exno1/assets/119559976/a210fb07-bd74-49a3-ae3a-32ef13bf8eb7")
 
 ```
 df.info()
@@ -60,7 +60,7 @@ df.dropna(inplace=True)
 df
 ```
 
-<img height=70% width=70% src="https://github.com/laakshit-D/exno1/assets/119559976/cca1df8d-5392-45c0-8589-9b3136fcf6fd">
+![image](https://github.com/laakshit-D/exno1/assets/119559976/cca1df8d-5392-45c0-8589-9b3136fcf6fd")
 
 <h3 align="center">IQR(Inter Quartile Range)</h3>
 
