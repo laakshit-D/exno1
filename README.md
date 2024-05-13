@@ -26,7 +26,7 @@ STEP 6: Use zscore of to remove outliers
 ```
 <h3 align="center">Data Cleaning</h3>
 
-```
+```py
 import pandas as pd
 df=pd.read_csv('/content/SAMPLEIDS.csv')
 df
@@ -34,7 +34,7 @@ df
 
 ![image](https://github.com/laakshit-D/exno1/assets/119559976/a210fb07-bd74-49a3-ae3a-32ef13bf8eb7")
 
-```
+```py
 df.info()
 df.describe()
 ```
@@ -43,13 +43,13 @@ df.describe()
 
 ![image](https://github.com/laakshit-D/exno1/assets/119559976/b5a9a89e-823b-4f14-9787-b0bfef4291f6")
 
-```
+```py
 df.isnull().sum()
 ```
 
 ![image](https://github.com/laakshit-D/exno1/assets/119559976/4818844c-c7d6-4151-ad4f-11da73020930)
 
-```
+```py
 df.isnull().sum(axis=1)
 ```
 
@@ -184,9 +184,6 @@ df1
 ```
 
 ![image](https://github.com/PSriVarshan/exno1/assets/114944059/fbfd480f-960d-4d51-8695-71718cc8a342)
-
-<hr>
-
 
 # Result:
 Hence the data was cleaned , outliers were detected and removed.
